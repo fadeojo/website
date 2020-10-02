@@ -24,7 +24,7 @@ module.exports = {
       resume: "olufemi_adeojo_resume.pdf",
       username: "fadeojo",
       social: {
-        email: "fadeojo@gmail.com",
+        email: "fadeojo@outlook.com",
         github: "fadeojo",
         goodreads: "",
         instagram: "",
