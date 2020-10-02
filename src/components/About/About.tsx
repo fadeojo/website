@@ -4,7 +4,6 @@ import Image, { FixedObject } from "gatsby-image";
 
 import { SiteSiteMetadataAuthor } from "graphql-types";
 import { rhythm } from "../../utils/typography";
-import { yearsSince } from "../../utils/timeSince";
 import { device } from "../../styles/constants";
 import { useAvatar } from "../../hooks";
 
@@ -24,8 +23,7 @@ const About: React.FunctionComponent<AboutProps> = ({
       <Description>
         <h4>Hey there my friend!</h4>
         <p>
-          My name is {author.name}, and I am {yearsSince(author.birthDate)}{" "}
-          years old. I have a passion for products having constructive effects
+          My name is {author.name}, I have a passion for products having constructive effects
           on our lives, and I love to be involved in the development of
           purposeful applications.
         </p>
